@@ -32,7 +32,7 @@ class Artist
   
   def self.create_by_name(name)
     #Artist.new(name)
-    self.new(name).tap {|artist| artist.save|
+    self.new(name).tap {|artist| artist.save}
   end
 
   def print_songs

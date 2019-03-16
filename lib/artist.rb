@@ -31,7 +31,7 @@ class Artist
   end
   
   def self.create_by_name(name)
-    #Artist.new(name)
+    #Artist.new(name) - need to find what code would work with this to save
     self.new(name).tap {|artist| artist.save}
   end
 

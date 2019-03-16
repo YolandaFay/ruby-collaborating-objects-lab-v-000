@@ -32,6 +32,7 @@ class Artist
   
   def self.create_by_name(name)
     Artist.new(name)
+    self.save
   end
 
   def print_songs
